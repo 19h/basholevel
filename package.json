@@ -1,7 +1,7 @@
 {
 	"name": "basholevel",
 	"description": "A Basho-LevelDB wrapper (a convenience package bundling LevelUP & Basho-LevelDB)",
-	"version": "0.1.0",
+	"version": "0.15.0",
 	"contributors": [
 		"Rod Vagg <r@va.gg> (https://github.com/rvagg)", "Kenan Sulayman <kenan@sly.mn> (https://github.com/kenansulayman)"
 	],
