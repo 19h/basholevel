@@ -1,7 +1,7 @@
 {
 	"name": "basholevel",
-	"description": "A Basho-LevelDB wrapper (a convenience package bundling LevelUP & Basho-LevelDB)",
-	"version": "0.15.0-1",
+	"description": "A Basho-LevelDB wrapper (level-basho with a cooler name)",
+	"version": "1.0.0",
 	"contributors": [
 		"Rod Vagg <r@va.gg> (https://github.com/rvagg)", "Kenan Sulayman <kenan@sly.mn> (https://github.com/kenansulayman)"
 	],
@@ -11,12 +11,12 @@
 	},
 	"homepage": "https://github.com/KenanSulayman/basholevel",
 	"keywords": [
-		"basho", "stream", "database", "db", "store", "storage", "json"
+		"basho", "stream", "database", "db", "store", "storage", "json", "level", "leveldb"
 	],
 	"main": "index.js",
 	"dependencies": {
-		"leveldown-basho": "~0.8.1",
-		"levelup": "~0.15.0"
+		"leveldown-basho" : "*",
+		"level-packager"  : "*"
 	},
 	"scripts": {
 		"test": "node ./test.js"
